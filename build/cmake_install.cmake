@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

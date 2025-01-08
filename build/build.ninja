@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = L$:/Users/Fantik/YandexDisk/Project$ C++/SkillBox25_1/cmake-build-debug/
+cmake_ninja_workdir = L$:/Users/Fantik/YandexDisk/Project$ C++/SkillBox25_1/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target SkillBox25_1
 
@@ -52,7 +52,14 @@ build cmake_object_order_depends_target_SkillBox25_1: phony || CMakeFiles/SkillB
 build CMakeFiles/SkillBox25_1.dir/src/main_25-1.cpp.obj: CXX_COMPILER__SkillBox25_1_unscanned_Debug L$:/Users/Fantik/YandexDisk/Project$ C++/SkillBox25_1/src/main_25-1.cpp || cmake_object_order_depends_target_SkillBox25_1
   DEP_FILE = CMakeFiles\SkillBox25_1.dir\src\main_25-1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/include" -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/src"
+  INCLUDES = -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/./include" -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/./src"
+  OBJECT_DIR = CMakeFiles\SkillBox25_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\SkillBox25_1.dir\src
+
+build CMakeFiles/SkillBox25_1.dir/src/functions.cpp.obj: CXX_COMPILER__SkillBox25_1_unscanned_Debug L$:/Users/Fantik/YandexDisk/Project$ C++/SkillBox25_1/src/functions.cpp || cmake_object_order_depends_target_SkillBox25_1
+  DEP_FILE = CMakeFiles\SkillBox25_1.dir\src\functions.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/./include" -I"L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/./src"
   OBJECT_DIR = CMakeFiles\SkillBox25_1.dir
   OBJECT_FILE_DIR = CMakeFiles\SkillBox25_1.dir\src
 
@@ -64,7 +71,7 @@ build CMakeFiles/SkillBox25_1.dir/src/main_25-1.cpp.obj: CXX_COMPILER__SkillBox2
 #############################################
 # Link the executable SkillBox25_1.exe
 
-build SkillBox25_1.exe: CXX_EXECUTABLE_LINKER__SkillBox25_1_Debug CMakeFiles/SkillBox25_1.dir/src/main_25-1.cpp.obj
+build SkillBox25_1.exe: CXX_EXECUTABLE_LINKER__SkillBox25_1_Debug CMakeFiles/SkillBox25_1.dir/src/main_25-1.cpp.obj CMakeFiles/SkillBox25_1.dir/src/functions.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SkillBox25_1.dir
@@ -79,7 +86,7 @@ build SkillBox25_1.exe: CXX_EXECUTABLE_LINKER__SkillBox25_1_Debug CMakeFiles/Ski
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\cmake-build-debug" && L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\build" && L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +97,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\cmake-build-debug" && L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1" -B"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\build" && L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1" -B"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,7 +115,7 @@ build SkillBox25_1: phony SkillBox25_1.exe
 # =============================================================================
 
 #############################################
-# Folder: L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug
+# Folder: L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build
 
 build all: phony SkillBox25_1.exe
 

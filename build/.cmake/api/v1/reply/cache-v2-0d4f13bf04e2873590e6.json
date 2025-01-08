@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "l:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug"
+			"value" : "l:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug"
+			"value" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build"
 		},
 		{
 			"name" : "SkillBox25_1_IS_TOP_LEVEL",

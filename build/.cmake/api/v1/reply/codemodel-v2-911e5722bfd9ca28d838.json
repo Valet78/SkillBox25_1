@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SkillBox25_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SkillBox25_1-Debug-e307a59c24062731a309.json",
+					"jsonFile" : "target-SkillBox25_1-Debug-c42381b82b1263e43aea.json",
 					"name" : "SkillBox25_1",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/cmake-build-debug",
+		"build" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1/build",
 		"source" : "L:/Users/Fantik/YandexDisk/Project C++/SkillBox25_1"
 	},
 	"version" : 

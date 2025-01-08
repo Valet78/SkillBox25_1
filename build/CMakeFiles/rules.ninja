@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1" -B"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\cmake-build-debug"
+  command = L:\CLion\CLion2023.3\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1" -B"L:\Users\Fantik\YandexDisk\Project C++\SkillBox25_1\build"
   description = Re-running CMake...
   generator = 1
 
